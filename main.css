@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 80px auto;
+    max-width: 300px;
+    width: 100%;
+}
+h2, #resultado {
+text-align: center;
+}
+#resultado{
+    padding-top: 25px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #0811af;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #55a8fa;
+}
+.msgSucesso, .msgErro {
+ padding: 16px;
+ color: #fff;
+ border-radius: 5px;
+}
+
+.msgSucesso{
+    background-color:#08921b ;
+}
+.msgErro{
+    background-color:#930000 ;
+}
+.default{
+    background-color: #fff;
+}
+
